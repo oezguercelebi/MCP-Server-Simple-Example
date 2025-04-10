@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "SPD Partydeluxe": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres.uosenycmmgbhnbrvvnid:njd_krh5UYT9ywk5qaj@aws-0-eu-central-1.pooler.supabase.com:5432/postgres"
+      ]
+    },
+    "Heimdall Supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres.dymqnwlvlrsccvnvrylq:xvx-mtc*vwg4GET.ktj@aws-0-eu-central-1.pooler.supabase.com:5432/postgres"
+      ]
+    },
+    "Browser Tools MCP": {
+      "command": "npx",
+      "args": [
+        "@agentdeskai/browser-tools-server@1.2.0"
+      ]
+    },
+    "Heimdall (Local)": {
+      "command": "/Users/oezguercelebi/GitHub/heimdall/node_modules/electron/dist/Electron.app/Contents/MacOS/Electron",
+      "args": ["."],
+      "transport": "stdio"
+    },
+    "Express MCP Server": {
+      "command": "node",
+      "args": ["/Users/oezguercelebi/GitHub/mcps/dist/index.js"],
+      "transport": "stdio"
+    }
+  }
+} 

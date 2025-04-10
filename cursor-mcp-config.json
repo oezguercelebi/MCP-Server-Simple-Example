@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "Express MCP Server": {
+      "command": "node",
+      "args": ["/Users/oezguercelebi/GitHub/mcps/dist/index.js"],
+      "transport": "stdio"
+    }
+  }
+} 
